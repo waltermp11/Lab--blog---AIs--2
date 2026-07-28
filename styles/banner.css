@@ -11,6 +11,11 @@
     padding:20px 0;
 }
 
+.container h2 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .logo{
     color:#fff !important;
     font-size:2rem;
@@ -27,6 +32,12 @@
 
 .menu-link:hover{
     color:#d4d4d4 !important;
+}
+
+.nav-item a{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
 }
 
 /* HERO SECTION */
