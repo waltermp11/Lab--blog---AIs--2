@@ -1,0 +1,54 @@
+.custom-navbar {
+    background-color: rgba(29, 38, 56, 0.92) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+/* Estilos del Logo */
+.brand-text {
+    color: #fefffc;
+    font-size: 1.35rem;
+    letter-spacing: -0.5px;
+}
+
+.brand-accent {
+    color: #4192d9;
+    font-weight: 500;
+}
+
+.logo-icon-bg {
+    width: 38px;
+    height: 38px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover .logo-icon-bg {
+    transform: rotate(10deg) scale(1.05);
+    background-color: rgba(65, 146, 217, 0.2);
+}
+
+/* Enlaces de navegación */
+.custom-nav-link {
+    color: #b0c4de !important;
+    font-weight: 500;
+    font-size: 0.98rem;
+    padding: 0.5rem 1rem !important;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.custom-nav-link:hover,
+.custom-nav-link.active {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.custom-nav-link.active {
+    color: #4192d9 !important;
+    font-weight: 600;
+}
