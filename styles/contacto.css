@@ -51,7 +51,7 @@ body {
 
 
 .input-custom {
-    width: 80%;
+    width: 100%;
     background-color: #ffffff;
     border: 2px solid transparent;
     border-radius: 12px;
@@ -80,7 +80,7 @@ body {
 
 .textarea-custom {
     resize: vertical;
-    width: 80% !important;
+    width: 100% !important;
     min-height: 120px;
 }
 
@@ -147,9 +147,10 @@ body {
 }
 
 #mensaje {
-    width: 380px;
+    width: 100%;
     height: 320px;
     border-radius: 10px;
+
 }
 
 .contacto-container {
