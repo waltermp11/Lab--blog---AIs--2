@@ -1,0 +1,248 @@
+body {
+    background-color: white;
+    /* Fondo gris/azul de la imagen */
+    font-family: sans-serif;
+}
+
+
+/*formulario */
+.form-card-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.form-titulo {
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+
+.form-label-custom {
+    color: #e2e8f0;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 1rem;
+    color: #64748b;
+    font-size: 1.1rem;
+    pointer-events: none;
+    transition: color 0.2s ease;
+}
+
+.textarea-icon {
+    top: 0.9rem;
+}
+
+
+.input-custom {
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 0.75rem 1rem 0.75rem 2.8rem;
+    font-size: 0.95rem;
+    color: #1e293b;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-custom::placeholder {
+    color: #94a3b8;
+}
+
+.input-custom:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2); 
+    background-color: #ffffff;
+}
+
+
+.input-wrapper:focus-within .input-icon {
+    color: #6366f1;
+}
+
+.textarea-custom {
+    resize: vertical;
+    width: 100% !important;
+    min-height: 120px;
+}
+
+
+/* boton enviar */
+.btn-submit {
+    background-color: #2b3a50;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0.8rem 2rem;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1e293b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.btn-submit:active {
+    transform: translateY(0);
+}
+
+.btn-custom:hover {
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+.container-form {
+    background-color: #8896aa;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    align-items: center !important;
+    Border-radius: 16px;
+    margin: 30px 0px;
+    padding: 70px;
+    gap: 50px;
+    box-shadow:
+        0 20px 6px -1px rgba(0, 0, 0, 0.05),
+        0 10px 15px -3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.form-control.form-control-custom {
+    width: 380px;
+    border-radius: 10px;
+
+}
+
+#mensaje {
+    width: 100%;
+    height: 320px;
+    border-radius: 10px;
+
+}
+
+.contacto-container {
+    background-color: rgba(255, 255, 255, 0.05);
+   
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.contacto-titulo {
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+
+.contacto-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+
+
+.contacto-card {
+    background-color: #2b3a50;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    box-shadow:
+        0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -2px rgba(0, 0, 0, 0.05);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.contacto-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow:
+        0 10px 15px -3px rgba(0, 0, 0, 0.2),
+        0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+
+.contacto-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #a0aec0;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.contacto-val {
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contacto-val small {
+    color: #a0aec0;
+    font-weight: 400;
+}
+
+a.contacto-val:hover {
+    text-decoration: underline;
+    color: #6366f1;
+}
