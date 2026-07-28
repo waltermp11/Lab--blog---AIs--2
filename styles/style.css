@@ -1,0 +1,38 @@
+:root {
+--fuente: font-family: 'Nunito', sans-serif;
+--background: #fefffc;
+--background-cards : #8E9BAF;
+--background-cards- : #8E9BAF;
+--background-button:#2A374F;
+--background-button-hover:#4192D9;
+--letter-white:#fefffc;
+--letter-black: black;
+}
+
+.card {
+    background-color: var(--background-cards);
+    height: 100%;
+    border: solid 2px #000;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    border-radius: 12px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: var(--background-button);
+    border-color: var(--background-button);
+    color: var(--letter-white);
+    
+}
+
+.btn-primary:hover {
+    background-color: var(--background-button-hover);
+    border-color: var(--background-button-hover);
+    color: var(--letter-white);
+}
